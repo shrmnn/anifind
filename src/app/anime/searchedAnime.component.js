@@ -5,7 +5,7 @@ const SearchedAnimeComponent = (prop) => {
   return (
     <div key={malId} className="Anime-item">
       <img alt="Обложка тайтла" src={imageUrl} className="Anime-img" />
-      <h6 className="Anime-title">{title}</h6>
+      <p className="Anime-title">{title}</p>
     </div>
   );
 };

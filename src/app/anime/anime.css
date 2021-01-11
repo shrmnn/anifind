@@ -1,23 +1,46 @@
 .Anime {
+    padding: 0;
+
+    max-width: 100%;
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: 1fr;
     grid-gap: 8px;
-    padding: 0;
 
     list-style: none;
 }
 
 .Anime-img {
+    height: 80%;
+    width: 80%;
     max-height: 80%;
-    max-width: 80%;
+    object-fit: cover;
+
     border-radius: 8px;
+
+    transition: 0.4s;
+}
+
+.Anime-img:hover{
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px seagreen;
 }
 
 .Anime-title {
+    line-height: 1rem;
     margin: 0;
+
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .Anime-item {
-    display: inline-block;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(250px, 33vh) max-content;
+    grid-gap: 8px;
+    align-items: center;
+    justify-items: center;
 }

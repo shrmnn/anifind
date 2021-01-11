@@ -18,6 +18,7 @@ const AnimeContainerComponent = (prop) => {
     ));
   } catch (error) {
     console.error(error);
+    return null;
   }
 
   return <ul className="Anime">{animeList}</ul>;
