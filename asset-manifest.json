@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/anifind/static/css/main.dc1a9936.chunk.css",
-    "main.js": "/anifind/static/js/main.67b8742e.chunk.js",
-    "main.js.map": "/anifind/static/js/main.67b8742e.chunk.js.map",
+    "main.css": "/anifind/static/css/main.d2cf406b.chunk.css",
+    "main.js": "/anifind/static/js/main.59938c89.chunk.js",
+    "main.js.map": "/anifind/static/js/main.59938c89.chunk.js.map",
     "runtime-main.js": "/anifind/static/js/runtime-main.0cda8306.js",
     "runtime-main.js.map": "/anifind/static/js/runtime-main.0cda8306.js.map",
     "static/js/2.f34d791f.chunk.js": "/anifind/static/js/2.f34d791f.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.4adb318c.chunk.js": "/anifind/static/js/3.4adb318c.chunk.js",
     "static/js/3.4adb318c.chunk.js.map": "/anifind/static/js/3.4adb318c.chunk.js.map",
     "index.html": "/anifind/index.html",
-    "static/css/main.dc1a9936.chunk.css.map": "/anifind/static/css/main.dc1a9936.chunk.css.map",
+    "static/css/main.d2cf406b.chunk.css.map": "/anifind/static/css/main.d2cf406b.chunk.css.map",
     "static/js/2.f34d791f.chunk.js.LICENSE.txt": "/anifind/static/js/2.f34d791f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0cda8306.js",
     "static/js/2.f34d791f.chunk.js",
-    "static/css/main.dc1a9936.chunk.css",
-    "static/js/main.67b8742e.chunk.js"
+    "static/css/main.d2cf406b.chunk.css",
+    "static/js/main.59938c89.chunk.js"
   ]
 }
