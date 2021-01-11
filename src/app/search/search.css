@@ -1,0 +1,36 @@
+.Search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 1rem;
+}
+
+.Search {
+    height: max-content;
+    width: 400px;
+    padding: 7px 0;
+
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+
+    background: transparent;
+    transition: border-color 0.2s;
+
+    font-family: inherit;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.Search:focus {
+    border-bottom: 2px solid darkslategray;
+}
+
+.Search-history {
+    max-width: 50vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

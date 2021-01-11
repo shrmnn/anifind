@@ -1,0 +1,23 @@
+.Anime {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 8px;
+    padding: 0;
+
+    list-style: none;
+}
+
+.Anime-img {
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+.Anime-title {
+    margin: 0;
+}
+
+.Anime-item {
+    display: inline-block;
+}
