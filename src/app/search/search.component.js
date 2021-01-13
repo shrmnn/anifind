@@ -88,6 +88,7 @@ const SearchComponent = () => {
           } `}
           className="Search"
           onChange={(event) => setSearchInput(event.target.value)}
+          minLength="3"
         />
 
         {isSearching && <div>Поиск...</div>}
@@ -100,7 +101,7 @@ const SearchComponent = () => {
       {priorityResults.length !== 0 && searchInput && (
         <div className="Search-history">
           <h5 className="Search-lastSearch">Из истории запросов</h5>
-          <AnimeContainerComponent anime={priorityResults} />
+          <AnimeContainerComponent anime={priorityResults.slice(0, 5)} />
         </div>
       )}
 
