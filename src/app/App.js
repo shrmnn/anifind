@@ -5,10 +5,10 @@ import SearchComponent from './search/search.component';
 function App() {
   return (
     <div className="App">
-      <header className="App-header" title="Кликать бесполезно">
-        <div aria-label="Заголовок" className="App-header__logo">
+      <header className="App-header">
+        <a aria-label="Заголовок" className="App-header__logo" href="/anifind/">
           anifind
-        </div>
+        </a>
       </header>
       <main className="App-main">
         <SearchComponent />

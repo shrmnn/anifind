@@ -1,11 +1,13 @@
 .Search-container {
     width: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 200px auto;
     align-items: center;
     justify-items: center;
 
     font-size: 1rem;
+
+    transition: 0.4s;
 }
 
 .Search {
@@ -19,11 +21,12 @@
     outline: 0;
 
     background: transparent;
-    transition: 0.4s;
 
     font-family: inherit;
     font-size: 1.3rem;
     color: white;
+
+    transition: 0.4s;
 }
 
 .Search:focus,
@@ -32,37 +35,22 @@
 }
 
 .Search-history {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
-    justify-content: center;
-
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    background: #2f4f4f15;
+    border-radius: 4px;
+    height: 100%;
+    padding: 4px;
 
     color: lightgray;
     font-weight: 200;
 }
 
-.Search-history ol {
-    list-style: circle;
-    margin-block: 0;
-    padding: 0;
-    margin: 0 8px 0 8px;
-
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-.Search-history li {
-    display: inline-block;
-    margin: 0 8px 0 8px;
-}
-
 .Search-lastSearch {
     background: linear-gradient(66deg, seagreen, transparent, darkslategrey) no-repeat 40% 80%;
     background-size: 90% 2px;
+
+    font-weight: 200;
+}
+
+.Search-placeholder {
+    height: 200px;
 }

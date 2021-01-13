@@ -29,8 +29,10 @@ h2 {
 .App-header__logo {
   padding: 0 16px 0 16px;
 
+  color: inherit;
   font-weight: 600;
   user-select: none;
+  text-decoration: none;
 
   transition: 0.4s;
 }

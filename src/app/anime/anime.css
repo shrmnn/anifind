@@ -9,6 +9,18 @@
     grid-gap: 8px;
 
     list-style: none;
+
+    transition: 0.4s;
+}
+
+.Anime-item {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(200px, 25vh) max-content;
+    grid-gap: 8px;
+    align-items: center;
+    justify-items: center;
 }
 
 .Anime-img {
@@ -35,12 +47,7 @@
     font-weight: 500;
 }
 
-.Anime-item {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(250px, 33vh) max-content;
-    grid-gap: 8px;
-    align-items: center;
-    justify-items: center;
+.history > .Anime-img:hover{
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px darkred;
 }
